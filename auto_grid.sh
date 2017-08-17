@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# This script creates models with different parameters to run
+# a grid search on the parameters and find the optimal values.
+# The results of the models are stored in the confusion matrix
+# CSVs and can be analyzed with kscorecompare.py.
+
 # get all files that want to make model from
 # all masks must be .shp files with their .dbf etc files and be labelled:
 # 		image_mask.shp where image.tif is the image they are a shape file for
